@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Series</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container my-4 p-4" style="background-color: aqua;">
+        <img src="tvseries.jpg" alt="TV Series" style="max-width: 5%; height: auto;">
+        <h1 class="mb-4">TV Series</h1>
+        
+    </div>
+    <div class="container my-4 p-4" style="background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <table class="table table-striped" id="series-table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Channel</th>
+                    <th>Seasons</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot id="table-footer">
+            </tfoot>
+        </table>
+    </div>
+
+    <script type="module" src="./dist/main.js"></script>
+    <div class="row">
+    <div class="col-md-6">
+        <table class="table table-striped" id="series-table">
+            </table>
+    </div>
+    
+    <div class="col-md-2">
+        <div id="series-detail-card">
+            </div>
+    </div>
+</div>
+</body>
+</html>
